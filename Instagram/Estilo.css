@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: none;
+    box-sizing: border-box;
+    font-size: 16px;
+    text-decoration-line: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    background-color: rgb(243,243,243);
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.corpoTotal {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 150vh;
+}
+
+.celular {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.Celular img{
+    height: 50rem;
+}
+
+.bloco {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: white;
+    width: 90%;
+    padding: 1.3rem 0;
+} /* Só teste */
+
+.bloco:nth-child(1){
+    min-width: 19rem;
+}
+.continue{
+    display: flex;
+    align-items: center; /*Horizontal*/
+    justify-content: space-around; /*Vetical*/
+    flex-direction: column; /* Inverte função Align Itens com Justify Content*/
+    width: 50%;
+    min-height: 34rem;
+}
+
+.instagramLogo {
+    height: 5rem;
+}
+
+.fotoPerfil {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.fotoPerfil img{
+    height: 6rem;
+}
+
+.continuar{
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 3px;
+    margin: 10px 0px;
+}
+
+.deslogar{
+    color:#0095f6 ;
+}
+.linkBlue{
+    color:#0095f6;
+}
+
+.download{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.botoesDownload{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+    width: 100%;
+
+}
+
+.simbolApp{
+    width: 10rem;
+    height: 3rem;
+    background-size: cover;
+}
+
+.simbolApp:nth-child(1){
+    background-image: url(Apple-Logo.png);
+}
+
+.simbolApp:nth-child(2){
+    background-image: url(android-download.png);
+}
