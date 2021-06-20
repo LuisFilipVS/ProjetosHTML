@@ -41,7 +41,7 @@ header nav a:hover{
 
 /* Corpo */
 .corpoPrincipal{
-    background: linear-gradient(rgba(0,0,0,.50),rgba(57, 161, 104, 0.5)100%), url(/img/CapaFilme.jpg);
+    background: linear-gradient(rgba(0,0,0,.50),rgba(57, 161, 104, 0.5)100%), url("../img/capaFilme.jpg");
     height: 600px;
     font-size: 16px;
     background-size: cover;
