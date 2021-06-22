@@ -1,0 +1,12 @@
+body {
+    height: 95vh;
+    width: 95;
+    align-items: center;
+    margin: 0px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    color: black;
+    background-color: azure;
+
+}
